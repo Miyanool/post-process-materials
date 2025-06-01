@@ -21,12 +21,15 @@ To get started with this project:
 
 ## Post Process Materials
 
-| Material Name              | Description                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| M_PP_BaseScanLine         | Horizontal lines simulating old video noise (X-axis direction).             |
-| M_PP_ScanLine             | Thick horizontal lines moving top to bottom, created procedurally.          |
-| M_PP_ScanLineTextureBased | Thick horizontal lines moving bottom to top, created using a texture.       |
-| M_PP_RGBSplit             | Subtle RGB channel separation effect, simulating old video artifacts.       |
+| Material Name                | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| M_PP_BaseScanLine           | Horizontal lines simulating old video noise (X-axis direction).             |
+| M_PP_ScanLine               | Thick horizontal lines moving top to bottom, created procedurally.          |
+| M_PP_ScanLineTextureBased   | Thick horizontal lines moving bottom to top, created using a texture.       |
+| M_PP_RGBSplit               | Subtle RGB channel separation effect with optional overexposure.            |
+| M_PP_GlitchNoiseSubtle      | Persistent subtle glitch noise.                                             |
+| M_PP_GlitchNoisePulse       | Strong glitch noise that pulses at regular intervals.                       |
+| M_PP_HighContrastBW         | High-contrast black-and-white effect. (WIP)                                 |
 
 ## License
 
